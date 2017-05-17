@@ -1,0 +1,88 @@
+/*头部s*/
+html,body,.t_syh {
+    width: 100%;
+}
+.t_syh {
+    height: 100px;
+    background: #000;
+    margin: 0 auto;
+}
+.t_syh div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.t_syh b {
+    width: 200px;
+    height: 26px;
+    margin-top: 34px;
+}
+.t_syh b img {
+    width: 200px;
+    height: auto;
+}
+.t_syh ul {
+    margin-left: 600px;
+}
+.t_syh li a {
+    float: left;
+    font: 400 16px/100px "微软雅黑";
+    color: #919191;
+    margin-left: 44px;
+}
+
+.t_syh li a:hover {
+    color: #fff;
+}
+/*头部e*/
+
+/*底部s*/
+.friendlink_syh {
+    width: 100%;
+    height: 173px;
+    border-top: 1px solid #E3E3E3;
+    background: #EFEFEF;
+}
+.friendlink_syh .rele dl {
+    line-height: 28px;
+    margin: 42px 124px 0 0;
+}
+.friendlink_syh .rele dt a {
+    font: 500 16px "微软雅黑";
+    color: #434343;
+}
+.friendlink_syh .rele dd a {
+    font: 14px "微软雅黑";
+    color: #434343;
+}
+.friendlink_syh .code {
+    margin-top: 40px;
+}
+.friendlink_syh .code p {
+    text-align: right;
+}
+.friendlink_syh .code .code_syh {
+    font: 400 14px/20px "微软雅黑";
+}
+.friendlink_syh .code .code_sy {
+    font: 900 22px/20px "微软雅黑";
+}
+.footer_syh {
+    width: 100%;
+    height: 108px;
+    background: #151515;
+}
+.footer_syh .footer_l {
+    width: 500px;
+    font: 400 14px/24px "微软雅黑";
+    color: #ACACAC;
+    padding-top: 30px;
+}
+.footer_syh .footer_r p {
+    height: 100%;
+    font: 400 16px "微软雅黑";
+    color: #ACACAC;
+    text-align: center;
+    margin-top: 42px;
+}
+/*底部e*/

@@ -1,0 +1,160 @@
+/*video start*/
+.bodys {
+     overflow-y: hidden;
+     height: 758px;
+ }
+#images {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+}
+#images img {
+    position: absolute;
+    top: 50%;
+    margin: -11px 0 0 -85px;
+    width: 170px;
+    height: 22px;
+    left: 50%
+}
+.videos {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+video {
+    width: 100%;
+    /*height: 100%;*/
+    z-index: -5;
+    /*position: absolute;*/
+    /*top: -100px;*/
+    /*margin-top: 100px;*/
+    /*background-color: #000;*/
+}
+
+.g_bg {
+    width: 100%;
+    /*height: 100%;*/
+
+    /*height: 764px;*/
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+    top :100px;
+}
+
+.g_bg h3 {
+    display: inline-block;
+    width: 100%;
+    font: 900 50px "方正兰亭超细黑简体";
+    color: #fff;
+    margin-top: 320px;
+    text-align: center;
+}
+.g_spots {
+    width: 100%;
+}
+.g_spot {
+    position: absolute;
+    top: 820px;
+    left: 49%;
+}
+
+.g_spot li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+.g_spot li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+/*video end*/
+.g_progs {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 20px;
+    opacity: 0;
+}
+.g_programme {
+    display: inline-block;
+    width: 100%;
+    font: 900 40px "方正兰亭超细黑简体";
+    text-align: center;
+    margin-top: 90px;
+}
+.g_prog {
+    margin-top: 50px;
+}
+.g_prog b {
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+    background-color: #000;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+    top: 66px;
+    left: 90px;
+}
+.g_prog li {
+    float: left;
+    width: 276px;
+    height: 276px;
+    border:1px solid #E3E3E3;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.g_prog img {
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+    margin: 66px 0 0 90px;
+    transform : rotateY(0deg);
+}
+.g_prog i {
+    display: block;
+    /*width: 276px;*/
+    text-align: center;
+    margin-top: 34px;
+    color: #898989;
+    font-size: 15px;
+}
+.g_service {
+    display: inline-block;
+    width: 100%;
+    font: 900 40px "方正兰亭超细黑简体";
+    text-align: center;
+    margin-top: 200px;
+}
+.g_ser {
+    width: 1134px;
+    height: 727px;
+    border-right: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+.g_ser li {
+    float: left;
+    width: 188px;
+    height: 103px;
+    border-top: 1px solid #E3E3E3;
+    border-left: 1px solid #E3E3E3;
+    position: relative;
+}
+.g_ser li img {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+}

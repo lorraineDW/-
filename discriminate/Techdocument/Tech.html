@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<style link ></style>-->
+    <link rel="stylesheet" href="Tech.css"/>
+    <link rel="shortcut icon"  href="../image/商汤图标.ico"/>
+    <script src = 封装函数.js></script>
+    <script src = onload函数.js></script>
+</head>
+<body>
+<div class="t_syh">
+    <div>
+        <b class="fl">
+            <a href="../../index/index.html"><img src="img/logo-sweep%20effect.gif" alt=""/></a>
+        </b>
+        <ul>
+            <li><a href="../../case/case.html">典型案例</a></li>
+            <li><a href="Tech.html">核心技术</a></li>
+            <li><a href="../../picture/Tech.html">技术处理</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li class="dele_syh"><a href="#">加入我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--大的模块部分-->
+<ul class="scw">
+    <!--<li>人脸跟踪定位 </li>-->
+    <li id="follow">
+        <video id="video00" autoplay loop >
+            <source src="../Tech/video00.mp4" type="video/mp4">
+        </video>
+        <!--隐藏的盒子-->
+        <div id="followplay" class="followplay">
+            <p class="followplaya">人脸检测跟踪</p>
+            <p class="followplayb">对背景复杂低质量的图片或百人人群监控视频,可以在移动设备和的人电脑上实现毫秒级别的人脸检测。</p>
+            <p class="followplayb">该技术可适应侧脸,遮挡,模糊,表情变化等各种实际环境。</P>
+        </div>
+    </li>
+
+
+    <!--<li>人脸关键定位</li>-->
+    <li id="key">
+        <video id="video01" autoplay loop >
+            <source src="../Tech/video01.mp4" type="video/mp4">
+        </video>
+        <!--隐藏的盒子-->
+        <div id="keyplay" class="keyplay">
+            <p class="keyplaya">人脸关键定位</p>
+            <p class="keyplayb">微妙级别眼, 口，鼻轮廓等人脸106个关键定位。该技术可适应大角度侧脸,</p>
+            <p class="keyplayb">表情变化, 遮挡, 模糊, 明暗变化等各种实际环境。</P>
+        </div>
+    </li>
+
+    <!--<li>人脸身份认证</li>-->
+    <li id="identity">
+        <video id="video02" autoplay loop >
+            <source src="../Tech/video02.mp4" type="video/mp4">
+        </video>
+        <!--隐藏的盒子-->
+        <div id="identityplay" class="identityplay">
+            <p class="identityplaya">人脸身份认证</p>
+            <p class="identityplayb">给定人脸样本,毫秒级别检索大规律人脸数据库或监控视频,给出身份认证。</p>
+            <p class="identityplayb">在认证出96%的人脸时,误检率低于十万分之一。</P>
+        </div>
+    </li>
+
+    <!--<li>人脸属性</li>-->
+    <li id="attribute">
+        <img src="../image/attribute.jpg" alt=""/>
+        <div id="attributeplay" class="attributeplay">
+            <p class="attributeplaya">人脸属性</p>
+            <p class="attributeplayb">准确识别10多种人脸属性大类,例如性别,年龄,种族,表情,饰品,胡须,面部动作状态等。</p>
+            <p class="attributeplayb">可以用于广告定向投放或顾客信息分析,让你秒懂顾客户心。</P>
+            <div id="facea"></div>
+            <div id="faced"></div>
+        </div>
+        <div id="facel">
+            <div id="faceaa"></div>
+            <div id="faceaaa"></div>
+            <div id="faceb"></div>
+            <div id="facec"></div>
+            <span id="spanl1">女性 28岁 平静</span>
+            <span id="spanl2">不戴眼镜 颜值92</span>
+        </div>
+        <div id="facer">
+            <div id="facedd"> </div>
+            <div id="faceddd"></div>
+            <div id="facee"></div>
+            <div id="facef"></div>
+            <span id="spanr1">女性 28岁 平静</span>
+            <span id="spanr2">不戴眼镜 颜值92</span>
+        </div>
+
+    </li>
+
+    <!--<li>人脸聚类  美女盒子</li>-->
+    <li id="gather" class="gather">
+        <!--隐藏的盒子-->
+        <!--margin 来定位的-->
+        <div id="changebox" class="changebox">
+            <!--1.先写盒子的  而且他们都有背景颜色-->
+            <div class="Imgbox img"><img src="../image/C%20(5).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(3).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(2).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(8).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(5).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(1).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(4).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(5).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(6).jpg" alt=""/><div class="colorC transparent"></div></div>
+
+            <!--FENG.col transparentorGE -->
+            <div class="Imgbox img"><img src="../image/B%20(2).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(7).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(9).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(8).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(3).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(7).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(9).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(1).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(1).jpg" alt=""/><div class="colorB transparent"></div></div>
+
+<!--/*           FENGE -->
+            <div class="Imgbox img"><img src="../image/A1%20(4).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(3).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(2).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(6).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(4).jpg" alt=""/><div class="colorC transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(7).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/A1%20(8).jpg" alt=""/><div class="colorA transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/B%20(6).jpg" alt=""/><div class="colorB transparent"></div></div>
+            <div class="Imgbox img"><img src="../image/C%20(9).jpg" alt=""/><div class="colorC transparent"></div></div>
+        </div>
+        <!--position 来定位的-->
+        <div id="gatherplay" class="gatherplay">
+            <p class="gatherplaya">人脸聚类</p>
+            <p class="gatherplayb">数十万的人脸快速聚类, 可用于基于人脸的智能相册以及基于合影的社交网络分析。让图片管理更只管，让社交关系更清晰。</p>
+        </div>
+        <!--//结束交换后 出现的盒子-->
+        <!--position absolutely 来定位的-->
+        <div class="lastdisplaybox" id="lastdisplaybox">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>艾玛 · 沃森特</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>艾玛 · 罗伯茨</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>丽丽 · 柯林斯</span>
+        </div>
+
+    </li>
+
+    <!--<li>真人检测</li>-->
+    <li id="check">
+        <video id="video03" autoplay loop >
+            <source src="../Tech/video03.mp4" type="video/mp4">
+        </video>
+        <!--隐藏的盒子-->
+
+        <div id="checkplay" class="checkplay">
+            <p class="checkplaya">真人检测</p>
+            <p class="checkplayb">检测摄像头前用户是否为真人操作,配合人脸身份认证,为金融等高安全性要求的严肃应用场景提供真人身份验证。</p>
+            <p class="checkplayb">能有效分辨高清照片,PS,三维模型,换脸等仿冒欺诈。我们为用户配合和用户不配合场景提供解决方案。</P>
+        </div>
+
+    </li>
+
+    <!--<li>人脸美颜/美妆</li>-->
+    <li id="beauty" class="beauty">
+        <!--文字部分-->
+        <div id="beautyplay" class="beautyplay">
+            <p class="beautyplaya">人像美颜/美妆</p>
+            <p class="beautyplayb">基于智能人脸检测定位技术,打造移动端美颜,美妆效果解决方案。</p>
+            <p class="beautyplayb">让移动互联网娱乐时代有“美”可依。</P>
+        </div>
+
+
+        <!--按键部分-->
+        <div id="button" class="button">
+            <button id="btnface" class="btnface">美颜</button>
+            <button id="btnmake" class="btnmake">美妆</button>
+        </div>
+        <!--//两个ul公用一个位置资源 谁出现就出现 同时公用一个动画  美颜的 背景是默认被选中的-->
+        <div id="makeup" class="makeup">
+            <!--这个里面有一个动画-->
+            <div id="beautyface" class="beautyface">
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原图</p><img src="../image/00原图.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;瘦脸</p><img src="../image/01换眉.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;磨皮</p><img src="../image/3.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美白</p><img src="../image/4.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;红润</p><img src="../image/5.jpg" alt=""/></div>
+            </div>
+            <!--这个里面有一个动画-->
+            <!--两个动画同时开始 1往上走 2往下走-->
+            <div id="beautymake" class="beautymake">
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原图</p><img src="../image/00原图.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;换眉</p><img src="../image/7.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;换唇彩</p><img src="../image/8.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加睫毛</p><img src="../image/9.jpg" alt=""/></div>
+                <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大眼睛</p><img src="../image/10.jpg" alt=""/></div>
+            </div>
+        </div>
+    </li>
+</ul>
+<!--大的模块结束-->
+
+
+<div id="fixbox">
+    <div id="Explaintxt" >
+        <ol>
+            <li>人脸跟踪定位 </li>
+            <li>人脸关键定位</li>
+            <li>人脸身份认证</li>
+            <li>人脸属性</li>
+            <li>人脸聚类</li>
+            <li>真人检测</li>
+            <li>人脸美颜/美妆</li>
+        </ol>
+    </div>
+    <ol id="Instruction">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+</div>
+</body>
+</html>

@@ -1,0 +1,676 @@
+html,body,div,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline-style: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+ul,li{
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+/*--------------------------ÑùÊ½*/
+.t_syh {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 5;
+    opacity: 0.4;
+}
+.t_syh div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.t_syh b {
+    width: 200px;
+    height: 26px;
+    margin-top: 34px;
+}
+.t_syh b img {
+    width: 200px;
+    height: auto;
+}
+.t_syh ul {
+    margin-left: 600px;
+}
+.t_syh li a {
+    float: left;
+    font: 400 16px/100px "微软雅黑";
+    color: #919191;
+    margin-left: 44px;
+}
+
+.t_syh li a:hover {
+    color: #fff;
+}
+ul, ol {
+    list-style: none;
+}
+html, body, .scw, .scw li {
+    width: 100%;
+    height: 100%;
+}
+/*°ü×°Á½¸öºÐ×ÓµÄ ´óºÐ×Ó*/
+#fixbox{
+    position: fixed;
+    right: 35px;
+    top: 50%;
+    margin-top: -40px;
+    z-index: 1;
+
+}
+
+/*InstructionsµÄÑùÊ½*/
+#Instruction {
+    line-height: 16px;
+    /*float: right;*/
+    position: absolute;
+    right: -14px;
+    top: -5px;
+
+}
+
+#Instruction li {
+    height: 6px;
+    width: 6px;
+    border: 0.4px solid #fff;
+    border-radius: 6px;
+    margin-top: 12px;
+    /*È¦È¦ÄÚ²¿µÄ¸Ä±ä*/
+    color:#e2d7d7;
+    border: 2px solid #fff;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+
+
+/*¿É±»Ñ¡ÔñµÄ #Instruction È¦È¦µÄÑùÊ½*/
+#Instruction .li00{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+#Instruction .li00other{
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0,0,0,0);
+}
+#Instruction .li00other:hover{
+    border: 2px solid #898989;
+    background-color: #898989;
+}
+
+
+#Instruction .li01{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+#Instruction .li01other{
+    border: 2px solid #898989;
+    background-color: rgba(0,0,0,0);
+}
+
+#Instruction .li01other:hover{
+    border: 2px solid #898989;
+    background-color: #898989;
+}
+#Instruction .li02{
+    border: 2px solid #444444;
+    background-color: #444444;
+}
+#Instruction .li02other{
+    border: 2px solid #B7B7B7;
+    background-color: rgba(0,0,0,0);
+}
+
+#Instruction .li02other:hover{
+    border: 2px solid #B7B7B7;
+    background-color: #B7B7B7;
+}
+#Instruction .li03{
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+#Instruction .li03other{
+    border: 2px solid #B7B7B7;
+    background-color: rgba(0,0,0,0);
+}
+
+#Instruction .li03other:hover{
+    border: 2px solid #B7B7B7;
+    background-color: #B7B7B7;
+}
+#Instruction .li04{
+    border: 2px solid #000000;
+    background-color: #000000;
+}
+#Instruction .li04other{
+    border: 2px solid #B7B7B7;
+    background-color: rgba(0,0,0,0);
+}
+
+#Instruction .li04other:hover{
+    border: 2px solid #B7B7B7;
+    background-color: #B7B7B7;
+}
+
+/*²à±ßÏÔÊ¾ÎÄ×ÖµÄÑùÊ½*/
+#Explaintxt{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    padding-right: 0px;
+    /*float: right;*/
+    /*¸Ä±äÁ¿*/
+    color:#D9D9DA;
+    cursor: default;
+    display: none;
+    opacity: 0;
+}
+
+
+
+/*¿ÉÒÔ±»Ñ¡ÔñµÄÎÄ×ÖÑ¡ÔñÑùÊ½*/
+#Explaintxt  .li00{
+    color:white ;
+}
+#Explaintxt  .li00other{
+    color: #898989;
+}
+#Explaintxt  .li01{
+    color:#FFFFFF;
+}
+#Explaintxt  .li01other{
+    color: #898989;
+}
+#Explaintxt  .li02{
+    color:#444444;
+}
+#Explaintxt  .li02other{
+    color: #B7B7B7;
+}
+#Explaintxt  .li03{
+    color:white;
+}
+#Explaintxt  .li03other{
+    color: #898989;
+}
+#Explaintxt  .li04{
+    color:black;
+}
+#Explaintxt  .li04other{
+    color: #898989;
+}
+
+/*--------------´óµÄ Áù¸ö¾ßÌåµÄºÐ×Ó*/
+/*µÚÒ»¸öºÐ×Ó ÈËÁ³×·×Ù*/
+ul #follow{
+    position: relative;
+    overflow: hidden;
+}
+ul #follow #video00{
+    width: 100%;
+    /*height: 100%;*/
+    position: absolute;
+
+}
+ul #follow .followplay{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+
+}
+ul #follow .followplay .followplaya,ul #key .keyplaya{
+    font: 400 39px/70px "littlefont";
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+ul #follow .followplay .followplayb,ul #key .keyplayb{
+    font: 400 14px/20px "Î¢ÈíÑÅºÚ";
+    color: #fff8e1;
+}
+
+
+
+/*µÚ¶þ¸öºÐ×Ó ÈËÁ³¹Ø¼ü¶¨Î»*/
+ul #key {
+    position: relative;
+    overflow: hidden;
+}
+ul #key #video01 {
+    width: 100%;
+    /*height: 100%;*/
+    position: absolute;
+}
+ul #key .keyplay {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+/*µÚÈý¸öºÐ×Ó  identity Éí·ÝÈÏÖ¤*/
+ul #identity{
+    position: relative;
+    overflow: hidden;
+}
+ul #identity #video02{
+    width: 100%;
+    position: absolute;
+}
+ul #identity .identityplay {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    /*color: #FFFFFF;*/
+    background-color: rgba(0,0,0,0);
+}
+ul #identity .identityplaya,ul .gather .gatherplaya{
+    font: 400 39px/70px "littlefont";
+    margin-top: 130px;
+    color: #464646;
+}
+ul #identity .identityplayb,ul .gather .gatherplayb{
+    font: 400 14px/20px "Î¢ÈíÑÅºÚ";
+    color: #363636;
+}
+
+/*µÚËÄ¸öºÐ×Ó*/
+ul #attribute {
+    position: relative;
+    /*overflow: hidden;*/
+}
+ul #attribute img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+ul #attribute .attributeplay {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+ul #attribute #attributeplay .attributeplaya{
+    font: 400 39px/70px "littlefont";
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+ul #attribute #attributeplay .attributeplayb{
+    font: 400 12px/20px "Î¢ÈíÑÅºÚ";
+    color: #fff8e1;
+}
+ul #attribute #facel{
+    position: relative;
+    width: 150px;
+    height:80px;
+    opacity: 0;
+    top:260px;
+    left: 240px;
+}
+ul #attribute  #facea{
+    position: absolute;
+    width: 210px;
+    height:210px;
+    border: 1px  white solid;
+    top: 220px;
+    left: 360px;
+}
+ul #attribute #facel #faceaa {
+    position: absolute;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    border: 2px white solid;
+    top: 36px;
+    right: 10px;
+}
+ul #attribute #facel #faceaaa {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius:50%;
+    background: white;
+    border: 1px white solid;
+    top: 36px;
+    right: 10px;
+}
+ul #attribute #facel #faceb{
+    position:absolute;
+    width: 0px;
+    border-bottom:1px  white solid;
+    top: 38px;
+    left: 130px;
+}
+ul #attribute #facel span{
+    font: 12px "Î¢ÈíÑÅºÚ";
+    color: white;
+}
+ul #attribute #facel #spanl1{
+    position:absolute ;
+    opacity: 0;
+    top: 20px;
+}
+ul #attribute #facel #spanl2{
+    position:absolute ;
+    opacity: 0;
+    top: 49px;
+}
+ul #attribute #facel #facec{
+    position: absolute;
+    height:26px;
+    width: 0px;
+    border-bottom:1px  white solid;
+    border-right:1px  white solid;
+    top: 39px;
+    left: 100px;
+}
+ul #attribute #facer{
+    position: relative;
+    width: 150px;
+    height: 80px;
+    opacity: 0;
+    font: 12px "Î¢ÈíÑÅºÚ";
+    color: white;
+    top:320px;
+    left: 835px;
+}
+ul #attribute  #faced{
+    position: absolute;
+    width: 210px;
+    height:210px;
+    border: 1px  white solid;
+    top: 395px;
+    right: 495px;
+}
+/*ÓÒ±ßÐ¡Ô²µã*/
+ul #attribute #facer #facedd {
+    position: absolute;
+    border-radius: 50% 50%;
+    width: 5px;
+    height: 5px;
+    border: 2px white solid;
+    top: 30px;
+    left: -2px;
+}
+ul #attribute #facer #faceddd {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50% 50%;
+    background: white;
+    border: 1px white solid;
+    top: 30px;
+    left: -2px;
+}
+ul #attribute #facer #facee{
+    position:absolute;
+    width: 0px;
+    border-bottom:1px  white solid;
+    top: 30px;
+    right: 140px;
+}
+ul #attribute #facer #facef{
+    position: absolute;
+    width: 0px;
+    height:26px;
+    border-bottom:1px  white solid;
+    border-left:1px  white solid;
+    top: 30px;
+    right: 110px;
+}
+ul #attribute #facer span{
+    font: 12px "Î¢ÈíÑÅºÚ";
+    color: white;
+}
+ul #attribute #facer #spanr1{
+    position:absolute ;
+    opacity: 0;
+    top: 15px;
+    right: 10px;
+}
+ul #attribute #facer #spanr2{
+    position:absolute ;
+    opacity: 0;
+    top: 40px;
+    right: 10px;
+}
+/*µÚÎå¸öºÐ×Ó*/
+
+/*//°Ö°ÖÔÚ´Ë  ¶ù×ÓÃÇÇë¿´ÏòÎÒ*/
+ul .gather{
+    overflow: hidden;
+    /*padding-top: 350px;*/
+    position: relative;
+}
+ul .gather .changebox {
+    /*//Õâ¸öºÐ×ÓÊÇ²»ÄÜÒÆ¶¯µÄ ¼ÓÁËmargintop »áÖØ¸´µÄ  ÔÚstepÔÚ< margin-top  µÄÊ±ºò*/
+    width: 1200px;
+    /*height: 200px; ;*/
+    /*background-color: palevioletred;*/
+    /*opacity: 0.3;*/
+    margin-left: 110px;
+    /*margin-right: 100px;*/
+    position: absolute;
+    top: 270px;
+}
+/*//ÕâÀïÒ²ÓÐ¸ö°Ö°Ö£¡£¡£¡£¡£¡*/
+ul .gather .changebox .Imgbox {
+    position: relative;
+    /*position: absolute;*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /*background-color: lightcoral;*/
+    margin: 10px;
+}
+
+ul .gather .changebox .Imgbox img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /*top: 20px;*/
+    /*left: 0px;*/
+}
+ul .gather .changebox .Imgbox .transparent{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*background-color: yellow;*/
+    /*opacity: 0.2;*/
+}
+
+
+/*//·Ö±ðµ½´ïµÄÄ¿±êÖµ¾ÍÊÇ 0.4/*/
+/*µÚÒ»¸öÃÀÅ®*/
+ul .gather .changebox .Imgbox .colorA{
+    background-color: yellow;
+    opacity: 0;
+}
+/*µÚ¶þ¸öÃÀÅ®*/
+ul .gather .changebox .Imgbox .colorB{
+    background-color: blue;
+    opacity: 0;
+}
+/*µÚÈý¸öÃÀÅ®*/
+ul .gather .changebox .Imgbox .colorC{
+    background-color: darkred;
+    opacity: 0;
+}
+
+ul .gather .gatherplay{
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    /*color: #FFFFFF;*/
+    background-color: rgba(0,0,0,0);
+}
+ul .gather .lastdisplaybox{
+    position: absolute;
+    bottom: 10px;
+    opacity: 0;
+}
+ul .gather .lastdisplaybox span{
+    /*color: floralwhite;*/
+}
+/*µÚÁù¸öºÐ×Ó ÕæÈË¼ì²âstart*/
+ul #check{
+    position: relative;
+    overflow: hidden;
+}
+ul #check #video03{
+    width: 100%;
+    position: absolute;
+}
+ul #check .checkplay {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    /*color: #FFFFFF;*/
+    background-color: rgba(0,0,0,0);
+}
+ul #check .checkplaya{
+    font: 400 39px/70px "littlefont";
+    margin-top: 130px;
+    color: #464646;
+}
+ul #check .checkplayb{
+    font: 400 12px/20px "Î¢ÈíÑÅºÚ";
+    color: #828282;
+
+}
+/* ----------- µÚÁù¸öºÐ×Óend---------------*/
+
+
+/*µÚÆß¸öºÐ×Ó ÈËÏñÃÀÑÕstart*/
+
+ul #beauty {
+
+    position: relative;
+    overflow: hidden;
+    /*×îºóÒ»²½*/
+}
+/*----------------------ÎÄ×Ö²¿·Ö*/
+ul #beauty  .beautyplay {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+}
+ul #beauty .beautyplaya {
+    font: 400 39px/70px "littlefont";
+    margin-top: 100px;
+    color: #464646;
+}
+ul #beauty .beautyplayb{
+    font: 400 14px/20px "Î¢ÈíÑÅºÚ";
+    color: #828282;
+}
+/*-----------°´Å¥ÑùÊ½*/
+ul #beauty .button{
+    position: absolute;
+    top: 230px;
+    left: 560px;
+}
+
+ul #beauty .button .btnface,.btnmake{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000000;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+/*----------------Ê®ÕÅÍ¼Æ¬µÄÑùÊ½£»*/
+ul #beauty .makeup {
+    position: absolute;
+    top: 340px;
+    left: 50px;
+    /*overflow: hidden;*/
+}
+ul #beauty .makeup .beautyface{
+    /*height: 480px;*/
+    position: relative;
+    /*Ïà¶ÔÓÚµÈ»áÐèÒªÒÆ¶¯µÄ ËùÓÐÐ¡µÄdiv ÊÇ¸¸ÔªËØ*/
+
+}
+
+ul #beauty .makeup .beautymake{
+    /*height: 480px;*/
+    position: relative;
+    top: 480px;
+
+}
+/*×ÖÌå¸ß¶ÈÊÇ20px*/
+ul #beauty .makeup .beautyface div,.beautymake div{
+    position: absolute;
+    /*margin: 15px;*/
+    height: 480px;
+}
+ul #beauty .makeup .beautyface div img,.beautymake div img{
+    width: 220px;
+    height: 460px;
+
+}
+/*µÚÆß¸öºÐ×Ó end*/
+
+/*--------------´óµÄ Áù¸ö¾ßÌåµÄºÐ×Ó*/

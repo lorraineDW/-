@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*css的初始化*/
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0
+}
+body, button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img {
+    border: 0;
+    vertical-align: top;
+}
+a, input, button, select, textarea {
+    outline: none;
+}
+a, button {
+    cursor: pointer;
+}
+img, input, button {
+    border: none;
+    outline: none;
+}
+ul,li,dl,dt,dd{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+s,i,em,strong,b{
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+    font-size: 12px;
+    color: #000;
+    font-family: 'microsoft yahei';
+    font-weight: normal;
+    background-color: white;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+.center{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banxin {
+    width: 1200px;
+    margin: auto;
+}

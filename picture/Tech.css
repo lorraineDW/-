@@ -1,0 +1,122 @@
+html,body,div,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline-style: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+ul,li{
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.t_syh {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 5;
+    opacity: 0.4;
+}
+.t_syh div {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.t_syh b {
+    width: 200px;
+    height: 26px;
+    margin-top: 34px;
+}
+.t_syh b img {
+    width: 200px;
+    height: auto;
+}
+.t_syh ul {
+    margin-left: 600px;
+}
+.t_syh li a {
+    float: left;
+    font: 400 16px/100px "微软雅黑";
+    color: #919191;
+    margin-left: 44px;
+}
+
+.t_syh li a:hover {
+    color: #fff;
+}
+
+
+.scw, ol,.scw li {
+    list-style: none;
+}
+html, body, .scw, .scw li {
+    width: 100%;
+    height: 100%;
+}
+/*°ü×°Á½¸öºÐ×ÓµÄ ´óºÐ×Ó*/
+#fixbox{
+    position: fixed;
+    right: 35px;
+    top: 50%;
+}
+/*InstructionsµÄÑùÊ½*/
+#Instruction {
+    line-height: 16px;
+    /*float: right;*/
+    position: absolute;
+    right: -14px;
+    top: -5px;
+
+}
+
+#Instruction li {
+    height: 6px;
+    width: 6px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    margin-top: 12px;
+    /*È¦È¦ÄÚ²¿µÄ¸Ä±ä*/
+    color:#e2d7d7;
+    border: 2px solid #fff;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+/*²à±ßÏÔÊ¾ÎÄ×ÖµÄÑùÊ½*/
+#Explaintxt{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    padding-right: 0px;
+    /*float: right;*/
+    /*¸Ä±äÁ¿*/
+    color:#D9D9DA;
+    cursor: default;
+    display: none;
+    opacity: 0;
+}
